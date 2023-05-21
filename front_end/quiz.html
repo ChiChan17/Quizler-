@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Quiz</title>
+  <link rel="stylesheet" href="/quiz.css">
+</head>
+
+<body>
+  <!-- Home button -->
+  <div class="header">
+    <a href="/home">
+      <button class="homeButton"></button>
+    </a>
+  </div>
+  <!-- Home button -->
+
+  <div class="container">
+    <div class="Border">
+      <h1>Take A Quizzle!</h1>
+    </div>
+    <div id="setContainer">
+      <div class="setCard">
+        <button onclick = goToView()>View Sets</button>
+        <label for="setValue">Quiz Set #:</label>
+        <input type="text" id="setValue">
+        <br>
+        <label for="number-of-values">Number of questions:</label>
+        <input type="text" id="number-of-values">
+        <br>
+        <div class = "start">
+          <button id="startQuizButton">Start Quizzle</button>
+        </div>
+        
+      </div>
+    </div>
+    <div id="cardContainer"></div>
+    <button id="submitButton">Submit</button>
+  </div>
+
+  <script src="/quiz.js"></script>
+</body>
+
+</html>

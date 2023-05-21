@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body.buttons {
+    font-family: "Poppins", "cascadia code", sans-serif;
+    background-image: url(https://www.linkpicture.com/q/background_5.png);
+    background-color: #f2f2f2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} 
+  
+.outlinecontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.Outline{
+    width: 600px;
+    height: 500px;
+    background-color: #ffffff;
+    border: 12px solid #ff424e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .5);
+    animation: slide-in 0.5s ease-in-out forwards; /* Added animation property */
+}
+
+@keyframes slide-in {
+    from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+    }
+}
+
+.Outline h1{
+    margin: 0;
+    font-size: 60px;
+}
+h1.title {
+    color: #575354;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 30px;
+}
+h2.slogan {
+    color: #575354;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 30px;
+}
+  
+div.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh
+}
+  
+div.buttons a {
+    text-decoration: none;
+}
+  
+div.buttons button {
+    padding: 20px 40px;
+    font-size: 24px;
+    background-color: #ff6387;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+  
+div.buttons button:hover {
+    background-color: #ff424e;
+    transform: scale(1.05);
+
+}
+
+
+.login button{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ff6387;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.login button:hover{
+    background-color: #ff424e;
+    transform: scale(1.05);
+}

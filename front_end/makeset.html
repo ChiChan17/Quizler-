@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Make Set</title>
+  <link rel="stylesheet" href="/makeset.css">
+</head>
+
+<body>
+  
+  <!-- Home button -->
+  <div class="header">
+    <a href="/home">
+      <button class="homeButton"></button>
+    </a>
+  </div>
+  <!-- Home button -->
+
+
+  <div class = "cont">
+        <div class = "content">
+            <div class = "card"><h1>Make A Set!</h1></div>
+            
+                <div class = "setname">
+                    <label for="setname">Set Name:</label>
+                    <input type="text" id="setname" name="setname" placeholder="Enter set name">
+                </div>
+
+                <div class="card">
+                    <label for="word">Word:</label>
+                    <input type="text" id="word" name="word" placeholder="Enter word">
+                
+                    <label for="description">Description:</label>
+                    <textarea id="description" name="description" placeholder="Enter description" rows="4"></textarea>
+                
+                    <button id="nextButton">Make</button>
+                    
+                </div>
+                
+                <div id="cardContainer">
+                  <button class="create-set-button">Create Set</button>
+                </div>
+                <br>
+                <br>
+        </div>
+  </div>
+  
+
+  
+
+
+  <script src="/makeset.js"></script>
+</body>
+
+</html>

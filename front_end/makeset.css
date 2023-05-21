@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-image: url(https://www.linkpicture.com/q/background_5.png);
+    background-color: #f2f2f2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+  
+h1 {
+    text-align: center;
+    color: #333;
+}
+  
+.card {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    color: #ff424e;
+    background-color: #ff424e;
+    border: 4px solid #ff424e;
+    border-radius: 5px;
+}
+  
+label{
+   display: block;
+    margin-bottom: 10px;
+    color: black;
+}
+  
+input[type="text"],
+textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  
+button {
+    padding: 15px 30px;
+    background-color: #ff424e;
+    color: #4b4b4b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+button#nextButton {
+    margin-right:  50px
+}
+  
+button:hover {
+    background-color: #ff424e;
+}
+
+
+/*Home button CSS*/
+.homeButton {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 50%;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .homeButton::before {
+    content: "";
+    position: absolute;
+    background-color: #000;
+    width: 18px;
+    height: 14px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+  }
+  
+  .homeButton::after {
+    content: "";
+    position: absolute;
+    background-color: #000;
+    width: 18px;
+    height: 14px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  
+  .homeButton::after::before {
+    content: "";
+    position: absolute;
+    background-color: #000;
+    width: 18px;
+    height: 4px;
+    top: 7px;
+    left: 0;
+  }
+  
+  .homeButton::after::after {
+    content: "";
+    position: absolute;
+    background-color: #000;
+    width: 18px;
+    height: 4px;
+    top: 7px;
+    right: 0;
+  }
+
+  .card {
+  width: 300px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 50px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-content {
+  text-align: center;
+}
+
+.word {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 16px;
+  color: #ff424e;
+}
+
+.card-buttons {
+  margin-top: 20px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.card {
+    width: 300px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .word {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 16px;
+    color: #666;
+  }
+  
+
+  .delete-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .card {
+    position: relative;
+    
+  }
+
+.setname {
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    color: #ff424e;
+    background-color: #ff424e;
+    border: 4px solid #ff424e;
+    border-radius: 5px;
+}
+
+.create-set-button {
+    display: block;
+    margin: 0 auto;
+    position: sticky;
+    bottom: 20px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .create-set-button:hover {
+    background-color: #45a049;
+  }
+  
+
+  .hidden-object {
+    opacity: 1;
+    transition: opacity 0.5s;
+  }
+  
+  .hidden {
+    opacity: 0;
+  }
+
+  

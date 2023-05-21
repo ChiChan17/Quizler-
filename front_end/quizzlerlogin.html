@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+
+<head>
+    <title>Quizzler</title>
+    <link rel="stylesheet" type="text/css" href="/quizler.css">
+</head>
+
+    <body>
+        
+        <div class = "boxheader">
+            <div class="box">
+                <div class = "Title">
+                    <h1>Quizzler</h1>
+                </div>
+                <div class = "slogan">
+                    <h2>Learn. Quiz. Repeat.</h2>
+                </div>
+            </div>
+        </div>
+        
+        <br>
+        <div class = "login"><h1>Log In</h1></div>
+        <form id="loginForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <button type="submit">Login</button>
+            <button type="button" id="registerButton">Register</button>
+          </form>
+          
+          <div id="registerModal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <h2>Registration</h2>
+              <label for="newUsername">Username:</label>
+              <input type="text" id="newUsername" name="newUsername" required>
+              <label for="newPassword">Password:</label>
+              <input type="password" id="newPassword" name="newPassword" required>
+              <button type="button" id="registerSubmitButton">Register</button>
+            </div>
+          </div>
+        
+
+
+
+<script src="/quizzler.js"></script>
+</body>
+
+
+</html>

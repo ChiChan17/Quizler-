@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url(https://www.linkpicture.com/q/background_5.png);
+  background-color: #f2f2f2;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+} 
+
+
+.Quiz{
+    text-align: center;
+    color: #333;
+}
+
+.border{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.Border{
+    width: 200px;
+    height: 100px;
+    background-color: #ffffff;
+    border: 6px solid #ff424e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.container {
+    background-repeat: repeat;
+    background-size: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container h1 {
+    color: #292525;
+    text-align: center;
+  }
+
+  h1 {
+    color: #5b5151;
+    text-align: center;
+  }
+  
+  .card {
+    border: 4px solid #ff424e; /* Updated border color */
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .question {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .answer-input {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button#submitButton {
+    background-color: #4ac2e0;
+    color: #ffffff;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button#submitButton:hover {
+    background-color: #0368a7;
+  }
+  
+  button#submitButton:disabled {
+    background-color: #dddddd;
+    cursor: not-allowed;
+  }
+  
+/* Home button CSS */
+.homeButton {
+    padding: 15px;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 16px;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  
+  .homeButton::before {
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 18px;
+    height: 14px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+  }
+  
+  .homeButton::after {
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 18px;
+    height: 14px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  
+  .homeButton::after::before {
+    content: "";
+    position: absolute;
+    background-color: #000;
+    width: 18px;
+    height: 4px;
+    top: 7px;
+    left: 0;
+  }
+  
+  .homeButton::after::after {
+    content: "";
+    position: absolute;
+    background-color: #000;
+    width: 18px;
+    height: 4px;
+    top: 7px;
+    right: 0;
+  }
+  
+  .homeButton:hover {
+    background-color: #ff424e;
+  }
+
+  .setContainer {
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .setCard button {
+    width: 100px;
+    height: 50px;
+    background-color: #ffb6b6;
+    border: 2px solid #ffffff;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+  }
+
+
+  .setCard button:hover {
+    background-color: #ff424e;
+    color: white;
+  }
+
+  .setCard h3 {
+    color: #363232;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .setCard{
+    
+    max-width: 400px;
+    max-height: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color:#ffffff;
+    border: 4px solid #ff424e;
+    border-radius: 5px;
+  }
+
+  input[type="text"],
+textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  
+
+
+.alert-stylings{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
+  max-height: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color:#ffffff;
+  border: 4px solid #ff424e;
+  border-radius: 5px;
+}
+
+.alert-stylings button{
+  width: 100px;
+  height: 50px;
+  background-color: #ffb6b6;
+  border: 2px solid #ffffff;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.alert-stylings button:hover{
+  background-color: #ff424e;
+  color: white;
+}
